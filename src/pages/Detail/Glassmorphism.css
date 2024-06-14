@@ -1,0 +1,25 @@
+.glass-container {
+    background-image: url('https://ggmeo.com/images/linh-thu-dtcl/gwen-tu-chi-duong-khi-ti-ni.jpg'); /* Background image for the blurred effect */
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 )
+  }
+  
+  .glass-content {
+    background-color: rgba(255, 255, 255, 0.5); /* Semi-transparent white background */
+    border-radius: 10px; /* Rounded corners */
+    padding: 20px;
+    backdrop-filter: blur(10px); /* Blurred background effect */
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    width: 300px; /* Adjust width as needed */
+    text-align: center;
+  }
